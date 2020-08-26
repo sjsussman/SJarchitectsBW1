@@ -76,7 +76,7 @@ color: #222222;
 
 
 
-/*contact header styles*/
+/*header styles*/
 header nav {
 	width: 100%;
 	padding: 2% 0;
@@ -109,8 +109,21 @@ header nav {
 	background-color: gray;
 }
 
-#top{
-    height:36vh;
+/*homepage main styles*/
+#topHome{
+    height:70vh;
+    background-image:url(../img/home/home-jumbotron.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+    display: flex;
+    align-items: flex-end;
+	justify-content: flex-start;
+}
+
+/*contact main styles */
+#topContact{
+    height:35vh;
     background-image:url(../img/contact/contact-jumbotron.png);
     background-size: 100% 120%;
     background-repeat: no-repeat;
