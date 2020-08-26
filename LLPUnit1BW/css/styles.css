@@ -293,7 +293,7 @@ flex-direction: column;
 	justify-content: space-evenly;
 }
 
-/*contact footer styles*/
+/*footer styles*/
 footer{
 	background-color: #828282;
 	width: 100%;
@@ -307,7 +307,7 @@ footer{
 }
 
 footer h3 {
-	font-size: 1rem;
+	font-size: 2rem;
 	line-height: 2.4rem;
 	color: #FFFFFF;
 }
