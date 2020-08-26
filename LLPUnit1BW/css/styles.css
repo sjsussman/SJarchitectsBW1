@@ -47,13 +47,20 @@ html{
 	line-height: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
 /*general body styles*/
 body {
     color: #222222;
     background: #FFFFFF;
     font-family: Roboto, Arial, sans-serif;
 	font-size: 1.6rem;
-    line-height: 2.4rem;
+	line-height: 2.4rem;
 }
 
 /*jumbotron header styles*/
@@ -70,10 +77,6 @@ font-weight: bold;
 font-size: 2.8rem;
 color: #222222;
 }
-
-
-
-
 
 
 /*header styles*/
@@ -120,6 +123,101 @@ header nav {
     align-items: flex-end;
 	justify-content: flex-start;
 }
+
+.homeContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.learnMore, .viewDesigns{
+	display: flex;
+	margin: 0 10%;
+}
+
+.viewDesigns{
+	flex-direction: row-reverse;
+}
+
+.topMain h2, .topMain p, .topMain a{
+	padding: 2%;
+	margin: 5%;
+}
+
+.topMain h2{
+	margin-top: 20%;
+}
+
+.topMain a{
+	border: 1px solid black;
+	text-decoration: none;
+	color: #222222;
+	margin-left: 7%;	
+}
+
+/*homepage Recent Project styles*/
+
+.recentProjects{
+	padding-top: 8%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+}
+
+.recentProjects .subheader{
+	margin-bottom: 5%;
+}
+
+.recentProjects p{
+	width: 50%;
+	margin: 0 auto;
+	padding: 5% 0;
+	
+}
+
+.recentProjects h3{
+	border: 1px solid white;
+	background-color: #D8D8D8;
+	width: 36%;
+	padding: 3% 0;
+	text-align: center;
+	letter-spacing: 1.5rem;
+}
+
+
+.villaTitle h3{
+	margin-top: -5.5%;
+	margin-left: 64%;
+	position: relative;
+}
+
+.outskirtsTitle h3{
+	margin-top: -5.5%;
+	position: relative;
+
+}
+
+.theBlocksTitle h3{
+	margin-top: -5.5%;
+	margin-left: 64%;
+	position: relative;
+
+}
+
+
+.topImg{
+	width: 60%;
+	height: 60%;
+	margin-top: 7%;
+}
+
+
+
+
+
+
+
+
 
 /*contact main styles */
 #topContact{
@@ -195,7 +293,7 @@ flex-direction: column;
 	justify-content: space-evenly;
 }
 
-/*contact footer styles*/
+/*footer styles*/
 footer{
 	background-color: #828282;
 	width: 100%;
@@ -209,7 +307,7 @@ footer{
 }
 
 footer h3 {
-	font-size: 1rem;
+	font-size: 2rem;
 	line-height: 2.4rem;
 	color: #FFFFFF;
 }
