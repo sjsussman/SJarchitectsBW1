@@ -11,40 +11,40 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*end of css reset*/
 html{
-	font-size: 62.5%;
-	line-height: 62.5%;
+    font-size: 62.5%;
+    line-height: 62.5%;
 }
 
 * {
@@ -59,8 +59,8 @@ body {
     color: #222222;
     background: #FFFFFF;
     font-family: Roboto, Arial, sans-serif;
-	font-size: 1.6rem;
-	line-height: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 /*jumbotron header styles*/
@@ -81,35 +81,35 @@ color: #222222;
 
 /*header styles*/
 header nav {
-	width: 100%;
-	padding: 2% 0;
-	font-size: 2.4rem;
-	background-color: #828282;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    width: 100%;
+    padding: 2% 0;
+    font-size: 2.4rem;
+    background-color: #828282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .logo{
-	margin-left: 10%;
+    margin-left: 10%;
 }
 
 .logo h2{
-	font-weight: bold;
-	font-size: 2.4rem;
-		color: #FFFFFF;
-	background-color: gray;
-	font-weight: bold;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    background-color: gray;
+    font-weight: bold;
 }
 
 .hamburger img{
-	background-color: gray;
+    background-color: gray;
 }
 
 .hamburger{
-	margin-right: 10%;
-	background-color: gray;
+    margin-right: 10%;
+    background-color: gray;
 }
 
 /*homepage main styles*/
@@ -118,100 +118,129 @@ header nav {
     background-image:url(../img/home/home-jumbotron.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-	background-position: center;
+    background-position: center;
     display: flex;
     align-items: flex-end;
-	justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .homeContainer {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .learnMore, .viewDesigns{
-	display: flex;
-	margin: 0 10%;
+    display: flex;
+    margin: 0 10%;
 }
 
 .viewDesigns{
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .topMain h2, .topMain p, .topMain a{
-	padding: 2%;
-	margin: 5%;
+    padding: 2%;
+    margin: 5%;
 }
 
 .topMain h2{
-	margin-top: 20%;
+    margin-top: 20%;
 }
 
 .topMain a{
-	border: 1px solid black;
-	text-decoration: none;
-	color: #222222;
-	margin-left: 7%;	
+    border: 1px solid black;
+    text-decoration: none;
+    color: #222222;
+    margin-left: 7%;    
 }
+
+.imgOne{    
+    width: 80%;
+    background-image:url(../img/home/home-img-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+}
+
+
+.imgTwo{    
+    width: 80%;
+    height: 50vh;
+    background-image:url(../img/home/home-img-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
 
 /*homepage Recent Project styles*/
 
 .recentProjects{
-	padding-top: 8%;
-	display: flex;
-	flex-direction: column;
-	margin: 0 10%;
-}
-
-.recentProjects .subheader{
-	margin-bottom: 5%;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
 }
 
 .recentProjects p{
-	width: 50%;
-	margin: 0 auto;
-	padding: 5% 0;
-	
+    width: 50%;
+    margin: 0 auto;
+    padding: 5% 0;
+    
 }
 
 .recentProjects h3{
-	border: 1px solid white;
-	background-color: #D8D8D8;
-	width: 36%;
-	padding: 3% 0;
-	text-align: center;
-	letter-spacing: 1.5rem;
+    border: 1px solid white;
+    background-color: #D8D8D8;
+    width: 36%;
+    padding: 3% 0;
+    text-align: center;
+    letter-spacing: 1.5rem;
 }
 
 
-.villaTitle h3{
-	margin-top: -5.5%;
-	margin-left: 64%;
-	position: relative;
+.villaTitle h3, .theBlocksTitle h3{
+    margin-top: -5.5%;
+    margin-left: 64%;
+    position: relative;
 }
 
 .outskirtsTitle h3{
-	margin-top: -5.5%;
-	position: relative;
+    margin-top: -5.5%;
+    position: relative;
 
 }
 
-.theBlocksTitle h3{
-	margin-top: -5.5%;
-	margin-left: 64%;
-	position: relative;
-
+.villaImageContainer{    
+    width: 130%;
+    background-image:url(../img/home/home-villas-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40vh;
 }
 
-
-.topImg{
-	width: 60%;
-	height: 60%;
-	margin-top: 7%;
+.outskirtsImageContainer{    
+    width: 130%;
+    background-image:url(../img/home/home-outskirts-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40vh;
 }
 
-
+.theBlocksImageContainer{    
+    width: 130%;
+    background-image:url(../img/home/home-the-blocks-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40vh;
+}
 
 
 
@@ -225,24 +254,24 @@ header nav {
     background-image:url(../img/contact/contact-jumbotron.png);
     background-size: 100% 120%;
     background-repeat: no-repeat;
-	background-position: bottom;
+    background-position: bottom;
     display: flex;
     align-items: flex-end;
-	justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 h1{
     width: 100%;
-	margin-left: 30%;
+    margin-left: 30%;
     margin-bottom: 2%;
 }
 
 /*contact main styles*/
 
 .main{
-	display: flex;
-	justify-content: space-evenly;
-	margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
 }
 
 .main h2{
@@ -263,88 +292,88 @@ flex-direction: column;
 }
 
 .topform div{
-	margin-top: 10%;
+    margin-top: 10%;
 }
 
 .topform input[type=text], select{
-	width: 100%;
-	padding: 2% 0;
-	border-radius: 4px;
+    width: 100%;
+    padding: 2% 0;
+    border-radius: 4px;
 }
 
 #commentform{
-	width: 100%;
+    width: 100%;
 }
 
 .topform input[type=submit]{
-	background-color: #FFFFFF;
-	padding: 3% 9%;
-	
+    background-color: #FFFFFF;
+    padding: 3% 9%;
+    
 }
 
 .topform .e-mail label{
-	opacity: 50%;
-	font-size: 1rem;
+    opacity: 50%;
+    font-size: 1rem;
 }
 
 .right{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /*footer styles*/
 footer{
-	background-color: #828282;
-	width: 100%;
-	padding-top: 3%;
+    background-color: #828282;
+    width: 100%;
+    padding-top: 3%;
 }
 
 .footercontainer {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer h3 {
-	font-size: 2rem;
-	line-height: 2.4rem;
-	color: #FFFFFF;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
 }
 
 .footer-email{
-	margin-left: 10%;
-	font-size: 1rem;
+    margin-left: 10%;
+    font-size: 1rem;
 }
 
 footer input{
-	width: 100%;
-	margin-top: 5%;
-	padding: 2% 0;
+    width: 100%;
+    margin-top: 5%;
+    padding: 2% 0;
 }
 
 .footer-locations {
-	width: 65%;
-	display: flex;
-	justify-content: space-evenly;
-	
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .footer-locations address{
-	font-size: 1.4rem;
-	line-height: 2.6rem;
-	color:#FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color:#FFFFFF;
 }
 
 footer label{
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 footer h4{
-	text-align: center;
-	color:#FFFFFF;
-	font-size: 1rem;
-	padding-top: 1%;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 1rem;
+    padding-top: 1%;
 }
 
 
@@ -355,163 +384,249 @@ footer h4{
 
 /*header responsiveness - tablet */
 
-	#top{ 
+    #topContact{ 
     background-image:url(../img/contact/contact-jumbotron.png);
-		background-size: 110% 120%;
-		height: 30vh;
-	}
-
-/*main body responsiveness - tablet */
-
-	.right{
-		align-items: center;
-		margin-right: 10%;
-	}
-
-	.left{
-		margin-left:10%;
-	}
-
-	.california{
-		margin-left: 10%;
-	}
-
-
-	.left h2{
-		margin-left: 18%;
-		margin-top: 10%;
-	}
-
-	.topform input[type=text], select{
-		width: 70%;
-		padding: 2% 0;
-		border-radius: 4px;
+        background-size: 110% 120%;
+        height: 30vh;
 	}
 	
-	#commentform{
-		width: 70%;
-	}
-	
-	.topform .submit{
-		margin-left: 20%;
-	}
+/* Home Page main body responsiveness - tablet */
+.imgOne, .imgTwo{    
+    height: 40vh;
+}
+
+
+.villaImageContainer, .outskirtsImageContainer, .theBlocksImageContainer{    
+    height: 30vh;
+}
+
+
+/* Contact Page main body responsiveness - tablet */
+
+    .right{
+        align-items: center;
+        margin-right: 10%;
+    }
+
+    .left{
+        margin-left:10%;
+    }
+
+    .california{
+        margin-left: 10%;
+    }
+
+
+    .left h2{
+        margin-left: 18%;
+        margin-top: 10%;
+    }
+
+    .topform input[type=text], select{
+        width: 70%;
+        padding: 2% 0;
+        border-radius: 4px;
+    }
+    
+    #commentform{
+        width: 70%;
+    }
+    
+    .topform .submit{
+        margin-left: 20%;
+    }
 
 /*footer responsiveness - tablet */
-	.footer-locations {
-		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-	}
+    .footer-locations {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-	.footer-email{
-		margin-left: 4%;
-	}
+    .footer-email{
+        margin-left: 4%;
+    }
 
-	.footer-locations .california{
-		margin-left: 0;
-	}
+    .footer-locations .california{
+        margin-left: 0;
+    }
 
 }
 
 
 /*Mobile Responsive*/
 @media(max-width: 500px){
-	/*Mobile responsiveness head*/
-	#top{ 
-		background-image:url(../img/contact/contact-mobile-jumbotron.png);
-		background-size: 100% 120%;
-		height: 40vh;
-	}
+    /*Mobile responsiveness head*/
+    #topContact{ 
+        background-image:url(../img/contact/contact-mobile-jumbotron.png);
+        background-size: 100% 120%;
+        height: 40vh;
+    }
 
-	.jumbo{
-		margin-left: 1%;
-		margin-bottom: 3%;
-	}
+    .jumbo{
+        margin-left: 1%;
+        margin-bottom: 3%;
+    }
 
-	
+    
 
-/*Mobile responsiveness main*/
+/*HOMEPAGE Mobile reponsiveness main*/
+#topHome{ 
+	background-image:url(../img/home/home-mobile-jumbotron.png);
+	background-size: 100% 120%;
+	height: 50vh;
+}
 
-	.main{
-		flex-direction: column;
-	}
+#topHome .jumbo h1{
+	margin: 0 0 5% 0;
+}
 
-	.left h2{
-		margin: 5% 50% 3% 0;
-	}
+.learnMore, .viewDesigns{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	margin: 0 3%;
+}
 
-	.left{
-		align-items: center;
-		margin: 0;
-		}
-	
-		
-		.topform div{
-			margin-top: 5%;
-		}
+.topMain h2{
+    margin-top: 5%;
+}
 
-	.topform input[type=submit]{
-		width: 100%;
-		margin-bottom: 10%;
-		
-	}
+.topMain a{
 
-	.topform .submit{
-		margin-left: 0;
-	}
+	margin: 0;
+	padding: 3% 30%;
+	margin-left: 10%;
+
+}
+
+.imgOne{    
+	height: 50vh;
+    background-image:url(../img/home/home-mobile-img-1.png);
+	margin-top: 10%;
+}
 
 
-	.right{
-		align-items: flex-start;
-		margin-left: 10%;
-	}
+.imgTwo{    
+	height: 50vh;
+    background-image:url(../img/home/home-mobile-img-2.png);
+	margin-top: 10%;
+}
 
-	.right div {
-		padding: 3%;
-	}
 
-	.footer-locations .california{
-		margin-left: 10%;
-	}
+.recentProjects{
+    margin: 0;
+}
+
+.recentProjects p{
+    width: 90%;
+ 
+}
+
+.villaImageContainer{    
+    background-image:url(../img/home/home-villas-img.png);
+    height: 20vh;
+}
+
+.outskirtsImageContainer{    
+    background-image:url(../img/home/home-outskirts-img.png);
+    height: 20vh;
+}
+
+.theBlocksImageContainer{    
+    background-image:url(../img/home/home-the-blocks-img.png);
+    height: 20vh;
+}
+
+.villaTitle h3, .theBlocksTitle h3, .outskirtsTitle h3{
+	margin: 0 auto;
+	margin-top: -5.5%;
+	position: relative;
+	width: 80%;
+}
+
+/*CONTACT Mobile responsiveness main*/
+
+    .main{
+        flex-direction: column;
+    }
+
+    .left h2{
+        margin: 5% 50% 3% 0;
+    }
+
+    .left{
+        align-items: center;
+        margin: 0;
+        }
+    
+        
+    .topform div{
+        margin-top: 5%;
+    }
+
+    .topform input[type=submit]{
+        width: 100%;
+        margin-bottom: 10%;
+        
+    }
+
+    .topform .submit{
+        margin-left: 0;
+    }
+
+
+    .right{
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+
+    .right div {
+        padding: 3%;
+    }
+
+    .footer-locations .california{
+        margin-left: 10%;
+    }
 
 /*Mobile responsiveness footer*/
 
 
-	.footercontainer {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: center;
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .footer-email{
+        margin-left: 0;
+        width: 75%;
 	}
 
+    .footer-locations {
+        width: 80%;
+        flex-direction:column;
+        align-items: flex-start;
+    }
 
-	.footer-email{
-		margin-left: 0;
-		width: 75%;
-}
+    .footer-locations div{
+        padding: 3%;
+    }
 
-	.footer-locations {
-		width: 80%;
-		flex-direction:column;
-		align-items: flex-start;
-	}
+    footer h4{
+        text-align: start;
+        color:#FFFFFF;
+        padding: 1% 0;
+        margin-left: 12%;
+    }
 
-	.footer-locations div{
-		padding: 3%;
-	}
+    .california{
+        margin: 0;
+    } 
 
-	footer h4{
-		text-align: start;
-		color:#FFFFFF;
-		padding: 1% 0;
-		margin-left: 12%;
-	}
-
-	.california{
-		margin: 0;
-	} 
-
-	.footercontainer .california{
-		margin: 0;
-	}
+    .footercontainer .california{
+        margin: 0;
+    }
 }
