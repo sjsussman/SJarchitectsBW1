@@ -514,6 +514,11 @@ footer h4{
         margin-bottom: 3%;
     }
 
+    h1{
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+
 
     .navLinks {
         display: flex;
