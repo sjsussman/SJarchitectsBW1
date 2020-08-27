@@ -83,16 +83,28 @@ color: #222222;
 header nav {
     width: 100%;
     padding: 2% 0;
-    font-size: 2.4rem;
+    font-size: 2rem;
     background-color: #828282;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.navLinks {
+    display: flex;
+    align-items: center;
+    margin-right: 12%;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 8%;
 }
 
 .logo{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .logo h2{
@@ -108,7 +120,7 @@ header nav {
 }
 
 .hamburger{
-    margin-right: 10%;
+    margin-right: 5%;
     background-color: gray;
 }
 
