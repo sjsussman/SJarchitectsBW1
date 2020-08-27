@@ -256,12 +256,6 @@ header nav {
     height: 40vh;
 }
 
-
-
-
-
-
-
 /*contact main styles */
 #topContact{
     height:35vh;
@@ -335,6 +329,44 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/*About Us styles*/
+#topAboutUs{
+    height:35vh;
+    background-image:url(../img/aboutus/design-build-banner.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.aboutUsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.personOne, .personTwo, .personThree{
+    display: flex;
+    margin: 10% 10%;
+}
+
+.personTwo{
+    flex-direction: row-reverse;
+}
+
+.aboutMain h2, .aboutMain p, .aboutMain a{
+    padding: 2%;
+    margin: 7%;
+}
+
+.aboutPhoto{
+    height: 50%;
+    width: 50%;
+}
+
 
 /*footer styles*/
 footer{
