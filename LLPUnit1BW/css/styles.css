@@ -54,7 +54,7 @@ html{
     max-width: 100%;
 }
 
-/*general body styles*/
+/*General Body Styles*/
 body {
     color: #222222;
     background: #FFFFFF;
@@ -63,7 +63,7 @@ body {
     line-height: 2.4rem;
 }
 
-/*jumbotron header styles*/
+/*Jumbotron Header Styles*/
 .jumbo{
 font-weight: bold;
 font-size: 6.4rem;
@@ -71,7 +71,7 @@ line-height: 7.5rem;
 color: #FFFFFF;
 }
 
-/*subheader styles*/
+/*Subheader Styles*/
 .subheader{
 font-weight: bold;
 font-size: 2.8rem;
@@ -79,7 +79,7 @@ color: #222222;
 }
 
 
-/*header styles*/
+/*Header Styles*/
 header nav {
     width: 100%;
     padding: 2% 0;
@@ -126,7 +126,7 @@ header nav {
     background-color: gray;
 }
 
-/*homepage main styles*/
+/*Homepage - Main Styles*/
 #topHome{
     height:70vh;
     background-image:url(../img/home/home-jumbotron.png);
@@ -191,7 +191,7 @@ header nav {
 
 
 
-/*homepage Recent Project styles*/
+/*Homepage 'Recent Project' - Styles*/
 
 .recentProjects{
     padding-top: 8%;
@@ -256,7 +256,7 @@ header nav {
     height: 40vh;
 }
 
-/*contact main styles */
+/*Contact Header - Styles */
 #topContact{
     height:35vh;
     background-image:url(../img/contact/contact-jumbotron.png);
@@ -274,7 +274,7 @@ h1{
     margin-bottom: 2%;
 }
 
-/*contact main styles*/
+/*Contact Body - Styles*/
 
 .main{
     display: flex;
@@ -330,7 +330,7 @@ flex-direction: column;
     justify-content: space-evenly;
 }
 
-/*About Us styles*/
+/*About Us - Styles*/
 #topAboutUs{
     height:35vh;
     background-image:url(../img/aboutus/design-build-banner.jpg);
@@ -368,7 +368,7 @@ flex-direction: column;
 }
 
 
-/*footer styles*/
+/*Footer Styles*/
 footer{
     background-color: #828282;
     width: 100%;
@@ -428,7 +428,7 @@ footer h4{
 @media(max-width: 800px){
 
 
-/*header responsiveness - tablet */
+/*Header Responsiveness*/
 
     #topContact{ 
     background-image:url(../img/contact/contact-jumbotron.png);
@@ -436,7 +436,7 @@ footer h4{
         height: 30vh;
 	}
 	
-/* Home Page main body responsiveness - tablet */
+/* Home Page Body Responsiveness*/
 .imgOne, .imgTwo{    
     height: 40vh;
 }
@@ -447,7 +447,7 @@ footer h4{
 }
 
 
-/* Contact Page main body responsiveness - tablet */
+/* Contact Page Body Responsiveness*/
 
     .right{
         align-items: center;
@@ -482,7 +482,7 @@ footer h4{
         margin-left: 20%;
     }
 
-/*footer responsiveness - tablet */
+/*Footer Responsiveness */
     .footer-locations {
         display: flex;
         justify-content: space-evenly;
@@ -527,7 +527,7 @@ footer h4{
     }
 
 
-/*HOMEPAGE Mobile reponsiveness main*/
+/*Home Page Responsiveness */
 #topHome{ 
 	background-image:url(../img/home/home-mobile-jumbotron.png);
 	background-size: 100% 120%;
@@ -602,7 +602,7 @@ footer h4{
 	width: 80%;
 }
 
-/*CONTACT Mobile responsiveness main*/
+/*Contact Responsiveness*/
 
     .main{
         flex-direction: column;
@@ -646,7 +646,7 @@ footer h4{
         margin-left: 10%;
     }
 
-/*Mobile responsiveness footer*/
+/*Footer Responsiveness*/
 
 
     .footercontainer {
