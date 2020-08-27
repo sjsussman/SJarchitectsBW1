@@ -100,8 +100,10 @@ header nav {
     text-decoration: none;
     color: #FFFFFF;
     text-align: center;
-    padding: 0 8%;
+    padding: 0 5%;
+    white-space: nowrap;
 }
+
 
 .logo{
     margin-left: 5%;
@@ -480,7 +482,18 @@ footer h4{
         margin-bottom: 3%;
     }
 
+
+    .navLinks {
+        display: flex;
+        align-items: center;
+        margin-right: 10%;
+    }
     
+    .navLinks a{
+        font-size: 1.3rem;
+        padding: 0 3%;
+    }
+
 
 /*HOMEPAGE Mobile reponsiveness main*/
 #topHome{ 
